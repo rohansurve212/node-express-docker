@@ -62,7 +62,7 @@ mongoose
 
 app.get('/api/v1/', (req, res) => {
   res.send(
-    '<h2>Hi There! Im Rohan and I love Docker Compose and Kubernetes very much!!!</h2>'
+    '<h2>Hi There! I am Rohan and I love Docker and Kubernetes very much. Let us push our code to production!!</h2>'
   )
   console.log('yeah it ran')
 })

@@ -62,7 +62,7 @@ mongoose
 
 app.get('/api/v1/', (req, res) => {
   res.send(
-    '<h2>Hi There! I am Rohan. This is my first attempt at building multiple container application using Docker. I love Docker and Kubernetes very much. Let us push our code to production!! </h2>'
+    '<h2>Hi There! I am Rohan. I am practicing building multiple container application using Docker. I am using a new workflow for dev to prod using DockerHub and WatchTower.</h2>'
   )
   console.log('yeah it ran')
 })
